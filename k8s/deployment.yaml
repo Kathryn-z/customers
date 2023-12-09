@@ -34,7 +34,7 @@ spec:
                 name: postgres-creds
                 key: database_uri
         readinessProbe:
-          initialDelaySeconds: 6
+          initialDelaySeconds: 5
           periodSeconds: 30
           httpGet:
             path: /health
